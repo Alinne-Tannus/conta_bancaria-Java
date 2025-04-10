@@ -23,12 +23,12 @@ public class Main {
         System.out.println("===================================");
 
         String menu = """
-                    || Digite a opção desejada: 
+                    || Digite a opção desejada:\s
                      1 - Consultar saldo da conta
                      2 - Receber valor
                      3 - Transferir valor
                      4 - Sair
-                """;
+               \s""";
 
         while (opcao != 4) {
             System.out.println(menu);
